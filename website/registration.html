@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="style.css">
+    <script async src="myscripts.js"></script>
+
+    <title>Registration</title>
+
+</head>
+
+<body>
+
+    <form method="post" action="successfullyReg.html" onsubmit="return validateForm()" method="post">
+        <div class="registration">
+            <h1>Register</h1>
+
+            <label for="username"><b>Username</b></label>
+            <input maxlength = "8" type="text" placeholder="Enter Username" name="username" id="username" required>
+
+            <label for="psw"><b>Password (Must have a lowercase, uppercase, and a number)</b></label>
+            <input pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" maxlength = "8" type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+            <label for="name"><b>First Name (Not Required)</b></label>
+            <input type="text" placeholder="Enter First Name" name="first" id="first" >
+
+            <label for="name"><b>Middle Name (Not Required)</b></label>
+            <input type="text" placeholder="Enter Middle Name" name="middle" id="middle" >
+
+            <label for="name"><b>Last Name</b></label>
+            <input type="text" placeholder="Enter Last Name" name="last" id="last" required>
+
+            <label for="Gender"><b>Gender</b></label>
+            <input type="text" placeholder="Enter Gender" name="gender" id="gender" required>
+
+            <label for="Address"><b>Street Address</b></label>
+            <input type="text" placeholder="Enter Address" name="add" id="add" required>
+
+            <label for="City"><b>City</b></label>
+            <input type="text" placeholder="Enter City" name="city" id="city" required>
+
+            <label for="State"><b>State</b></label>
+            <input type="text" placeholder="Enter State" name="state" id="state" required>
+
+            <label for="Zip Code"><b>Zip Code</b></label>
+            <input type="text" placeholder="Enter Zip Code" name="zip" id="zip" required>
+
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+            <label for="cell"><b>Cell Phone Number</b></label>
+            <input type="text" placeholder="Enter Cell Phone Number" name="cell" id="cell" required>
+
+            <label for="Company Name"><b>Company Name</b></label>
+            <input type="text" placeholder="Enter Company Name" name="cn" id="cn" required>
+
+            <label for="Client or Staff"><b>Client or Staff</b></label>
+            <select id="Employee" name="Client or Staff">
+                <option value="Client">Client</option>
+                <option value="Staff">Staff</option>
+            </select>
+
+    
+            <button type="submit" class="registerbtn">Register</button>
+        </div>
+
+       
+    </form>
+
+</body>
+
+</html>

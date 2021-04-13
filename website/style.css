@@ -1,0 +1,242 @@
+body {
+    background-color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.page_header {
+    background-color: #FFEFD5;
+    padding: 3%;
+    border-radius: 25px;
+    margin: 1%;
+    border-style: solid;
+}
+
+.page_header nav {
+    float: right;
+}
+
+.page_header a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.page_header h1 h3 {
+    float: left;
+}
+
+
+.links_navbar ul {  
+    margin: 0;
+    padding: 0;
+    border-radius: 18px;
+    overflow: hidden;
+    background-color: #FFEFD5;
+    margin: 1%;
+    text-align: center;
+    border-style: solid;
+}
+
+.links_navbar li {
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.links_navbar a {
+    display: block;
+    padding: 20%;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 18px;
+    color: black;
+
+}
+
+.first-column {
+    border-style: solid;
+    text-align: center;
+    border-radius: 18px;
+    float: left;
+    width: 29%;
+    padding: 10px;
+    height: 50%;
+    background-color: #FFEFD5; 
+    margin: 1%;
+}
+
+.first-column a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.first-body {
+    text-align: left;
+    text-decoration: none;
+    color: blue;
+    font-weight: normal;
+}
+
+.second-column {
+    border-style: solid;
+    text-align: center;
+    border-radius: 18px;
+    float: left;
+    width: 29%;
+    padding: 10px;
+    height: 50%;
+    background-color: #FFEFD5; 
+    margin: 1%;
+    font-weight: bold;
+}
+
+.second-column a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.third-column {
+    border-style: solid;
+    text-align: center;
+    border-radius: 18px;
+    float: left;
+    width: 29%;
+    padding: 10px;
+    height: 50%;
+    background-color: #FFEFD5; 
+    margin: 1%;
+}
+
+.third-column a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.third-column a {
+    text-align: left;
+    text-decoration: none;
+    color: blue;
+    font-weight: normal;
+}
+  
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+video {
+    border-radius: 18px;
+}
+
+img {
+    border-radius: 18px;  
+}
+
+.footer {  
+    margin: 0;
+    padding: 0;
+    border-radius: 18px;
+    overflow: hidden;
+    background-color: #FFEFD5;
+    margin: 1%;
+    text-align: center;
+    border-style: solid;
+    font-weight: bold;
+}
+
+
+/* Registration and login */
+
+/* Add padding to containers */
+.registration {
+    background-color: #FFEFD5;
+    padding: 3%;
+    border-radius: 25px;
+    margin: 1%;
+    border-style: solid;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border-radius: 18px;
+  display: inline-block;
+  border: none;
+  background-color: #FFFFFF;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn  {
+  background-color: #FFEFD5;
+  color: black;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border-style: solid;
+  border-radius: 18px;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn a  {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    
+  }
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.successReg {
+    background-color: #FFEFD5;
+    padding: 3%;
+    border-radius: 25px;
+    margin: 1%;
+    border-style: solid;
+    text-decoration: none;
+    color: black;
+
+}
+
+.successReg a{
+    text-decoration: none;
+    color: blue;
+
+}
+
+
+
+
